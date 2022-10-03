@@ -1,0 +1,8 @@
+{{ template "base.html" . }}
+
+{{ define "body" }}
+<h1>{{ .Title }}</h1>
+<p>
+  Date/Time is {{ .Time.Format "Jan 02, 2006 15:04:05 UTC" }}
+</p>
+{{ end }}

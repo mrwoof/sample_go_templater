@@ -1,0 +1,10 @@
+/* basic css file */
+
+body {
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  color:#555;
+}
+
+h1 {
+  font-size:24px;
+}

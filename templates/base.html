@@ -1,0 +1,13 @@
+<html>
+  <head>
+  <title>Sample Web UI - {{ .Title }}</title>
+  <link rel="stylesheet" href="/static/css/basic.css" type="text/css" charset="utf-8" />
+  </head>
+  <body>
+  <p style="float:right">
+    <b>User:</b> {{ .Username }}
+  </p>
+  {{ block "body" . }} {{ end }}
+  <small><i> {{ ToUpper "Sample Web  UI" }}</i></small>
+  </body>
+</html>

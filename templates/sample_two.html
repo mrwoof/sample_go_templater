@@ -1,0 +1,16 @@
+{{ template "base.html" . }}
+
+{{ define "body" }}
+<h1>{{ .Title }}</h1>
+{{ if ne .Input "" }}
+  <p>
+    <b>You entered:</b> {{ .Input }}
+  </p>
+{{ end }}
+<p>
+<form method="get">
+    <input type="text" name="in" size=30 placeholder="enter something and go"></input>
+    <input type="submit" value="go"></input>
+</form>
+</p>
+{{ end }}
