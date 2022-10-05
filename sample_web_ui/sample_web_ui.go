@@ -6,7 +6,7 @@ import (
 	"os"
 
 	log "github.com/sirupsen/logrus"
-	"sample_app/sample_web_ui/handlers"
+	"sample_go_templater/sample_web_ui/handlers"
 )
 
 const serviceName = "sample_web_ui"

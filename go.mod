@@ -1,4 +1,4 @@
-module sample_app
+module sample_go_templater
 
 go 1.18
 

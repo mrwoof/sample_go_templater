@@ -1,4 +1,4 @@
-# sample_app
+# sample_go_templater
 
 ## Overview
 

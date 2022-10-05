@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	log "github.com/sirupsen/logrus"
-	"sample_app/internal/templater"
+	"sample_go_templater/internal/templater"
 )
 
 type Handlers struct {
